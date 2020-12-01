@@ -63,6 +63,7 @@ li {
 
 .raw-logo img {
 	height: 100%;
+	cursor: pointer;
 }
 
 /* ---- Header End ---- */
@@ -275,7 +276,8 @@ li {
 
 .job-left {
 	padding: 14px 0px;
-	color: #439ee5;
+	color: #0769d9;
+	cursor: pointer;
 }
 
 .job-right span {
@@ -328,6 +330,7 @@ li {
 .social-icons {
 	margin-top: 15%;
 	width: 100%;
+	cursor: pointer;
 }
 
 .social-icons ul {
@@ -356,6 +359,9 @@ li {
 .privacy a {
 	color: #fff;
 	text-transform: capitalize;
+}
+.privacy a:hover {
+	text-decoration: underline;
 }
 
 .copyright {
@@ -627,12 +633,23 @@ li {
 		color: #fff;
 	}
 
+	.nav-items:hover {
+		text-decoration: underline;
+	}
+	.nav-items:last-child {
+		text-decoration: none;
+	}
+
 	.nav-items .btn {
 		padding: 14px 38px;
 		background-color: #439ee5;
 		color: #fff;
 		border-radius: 50px;
 		font-size: 0.9rem;
+	}
+
+	.nav-items .btn:hover {
+		opacity: 0.9;
 	}
 
 	.banner-img {
@@ -714,6 +731,9 @@ li {
 
 	.footer-top a {
 		font-size: 0.9rem;
+	}
+	.footer-top a:hover {
+		opacity: 0.9;
 	}
 
 	.social-icons {
